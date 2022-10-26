@@ -29,10 +29,11 @@ body{
     margin-top: 25px;
 }
 .screen{
+    border-radius: 20px;
     position: absolute;
-    height: 536px;
-    top: 28px;
-    left: 110px;
+    height: 545px;
+    top: 27px;
+    left: 109px;
 }
 
 .phone{
