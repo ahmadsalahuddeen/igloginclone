@@ -4,18 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Instagram loigin page </title>
+    <title>instagram</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://kit.fontawesome.com/4e6b50c3ce.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main-body">
-        <div class="left">
-            <img src="https://static.cdninstagram.com/rsrc.php/v3/y4/r/ItTndlZM2n2.png" alt="">
-            <img class="screenshot" src="images/screenshot.jpeg" alt="" srcset="">
-        </div>
-        <div class="right">
-
-        </div>
+   <section class="wrapper">
+    <div class="left">
+<img class="phone" src="images/phonescreen.jpg" alt="phone">
+<img class="screen" src="images/screenshot.jpeg"  alt="screen">
     </div>
+    <div class="right">
+<div class="panel login">
+    <img id="logo" src="images/instlogo.png" alt="logo">
+    <form>
+        <input 
+        class="input-box" type="text" name="username" required placeholder="phone number, username, or email">
+        <input 
+        class="input-box" type="text"name="password"
+        required placeholder="password"
+        >
+        <input 
+        class="button" type="submit" name="login"value="Log In">
+        <div class="divider">
+            <div class="line"></div>
+            <p>OR</p>
+            <div class="line"></div>
+        </div>
+        <!-- <img class="fbimage" src="/images/download.png" alt="facebook"> -->
+        <a class="fb" href="#">Log in with Facebook</a>
+        <a class="forgot" href="#">Forgotten your password?</a>
+    </form>
+</div>
+<div class="panel signup">
+    <p>Don't have an account</p>
+    <a href="#" >Sign up</a>
+</div> 
+<div class="apps">
+    <p>Get the app.</p>
+</div>
+
+<div class="app-stores">
+    <img class="appstore" src="images/apple.jpg" alt="appstore">
+    <img class="playstore" src="images/google.jpg" alt="playstore">
+
+</div>
+
+    </div>
+   </section>
+   <footer>
+    <ul>
+        <li><a href="#">Meta</a></li> <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+        <li><a href="#">Jobs</a></li>
+          <li><a href="#">Help</a></li>
+        
+        <li><a href="#">Hashtags</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Instagram Lite</a></li>
+           <li><a href="#">Contact Uploading & Non-Users</a></li>
+         </ul>
+    <ul>
+        <li>English</li>
+        <li>&copy; 2022 Instagram from Meta</li>
+    </ul>
+   </footer>
+    
 </body>
 </html>

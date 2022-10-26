@@ -1,33 +1,171 @@
-* {
+*{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
+     /* border: 1px solid red;   */
 
 }
-
 body{
-    font-family: Helvetica, sans-serif;
+    background-color: #fafafa;
+    font-family:  Helvetica, sans-serif;
+    min-height: 612px;
     display: flex;
     flex-direction: column;
-    background-color: #fafafa;
-    min-height: 100vh;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 .left{
-    position: relative;
+    margin-top: 28px;
+     position: relative;
+     margin-right: 33px;
+    
 }
-
-.main-body{
-    flex: 0.5;
-    display: flex;
+.right{
+    margin-top: 25px;
 }
-
-.screenshot{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+.screen{
     position: absolute;
-    left: 150px;
-    top: 29px;
-    height: 550px;
-    object-fit: contain;
+    height: 536px;
+    top: 28px;
+    left: 110px;
+}
+
+.phone{
+    width: 375px;
+}
+.panel {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin: 5px 0;
+    display: flex;
+    
+
+}
+.login{
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+form{
+    width: 100%;
+    display: flex;
+   flex-direction: column; 
+    align-items: center;
+}
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+      border: 1px solid #dedede;
+    border-radius: 2px;
+
+}
+.input-box::placeholder{
+    color: #8a8a8a;
+    font-size: 12px;
+}
+.input-box:focus{
+    outline: none;
+    border: 1px solid #8a8a8a;
+}
+.button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px; 
+    background-color: #b2dffc;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+
+}
+.divider{
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    color: #8a8a8a;
+    font-weight: bold;
+    gap: 20px;
+    align-items: center;
+}
+.line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: #8a8a8a;
+
+}
+
+.fb{
+    margin: 20px 0;
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.forgot{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+.signup{
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+
+
+}
+.signup a{
+    color: #3bb1ff;
+    text-decoration: none;
+    font-weight: 550;
+}
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 23px;
+
+}
+.appstore{
+    height: 36px;
+    width: 133px;
+    margin-top: 23px;
+    margin-right: 6px;
+    margin-left: 34px;
+}
+.playstore{
+    height: 36px;
+    width: 133px;
+}
+footer{
+   margin-bottom: 40px;
+   margin-top: 44px;
+}
+ul{
+    display: flex;
+     flex-wrap: wrap; 
+     justify-content: center;
+     font-size: 12px;
+     list-style: none;
+     gap: 10px;
+     margin: 20px 0;
+}
+li,a{
+    color: #8a8a8a;
+    text-decoration: none;
 }
